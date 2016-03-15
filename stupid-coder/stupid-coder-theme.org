@@ -1,0 +1,7 @@
+#+TITLE: stupid-coder-theme
+
+* 主题设置
+  使用 load-theme 函数设置主题
+  #+BEGIN_SRC emacs-lisp
+  (load-theme 'wombat t)
+  #+END_SRC
