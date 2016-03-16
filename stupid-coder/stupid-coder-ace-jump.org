@@ -1,0 +1,21 @@
+#+TITLE: stupid-coder-ace-jump
+
+* ace-jump
+  提供一个文本编辑器下快速移动光标的功能
+* install
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'ace-jump-mode)  
+  #+END_SRC
+* setting
+  #+BEGIN_SRC emacs-lisp
+  ;; 绑定快捷键
+  (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+  ;; 跳回
+  (eval-after-load "ace-jump-mode"
+  '(ace-jump-mode-enable-mark-sync))
+  (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
+  #+END_SRC
+  
+* links
+  [[https://github.com/winterTTr/ace-jump-mode]]
+  

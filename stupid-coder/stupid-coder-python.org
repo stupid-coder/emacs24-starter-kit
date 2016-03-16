@@ -1,0 +1,6 @@
+#+TITLE: stupid-coder-python
+
+* python
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-load "python")
+  #+END_SRC

@@ -1,0 +1,6 @@
+#+TITLE: stupid-coder-eshell
+
+* eshell
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-load "eshell")
+  #+END_SRC
