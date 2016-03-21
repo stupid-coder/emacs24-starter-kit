@@ -23,7 +23,6 @@ elim/*
 doc/*
 elpa/*
 src/*
-themes/*
 url/*
 
 ## exported and encrypted files
