@@ -4,3 +4,9 @@
   #+BEGIN_SRC emacs-lisp
   (starter-kit-load "eshell")
   #+END_SRC
+
+* ansi
+  #+BEGIN_SRC emacs-lisp
+  (add-hook 'shell-mdoe-hook 'ansi-color-for-comint-mode-on)
+  (add-to-list 'comint-output-filter-functions 'ansi-color-process-output)
+  #+END_SRC
