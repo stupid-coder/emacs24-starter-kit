@@ -1,0 +1,6 @@
+#+TITLE: yasnippet
+
+* yasnippet
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-load "yasnippet")
+  #+END_SRC
