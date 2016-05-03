@@ -1,0 +1,15 @@
+#+TITLE: emacs ide - eide
+#+AUTHOR: stupid_coder@163.com
+
+
+* eide
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'eide);
+  (eide-start)
+  #+END_SRC
+
+* cscope
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'xcscope);
+  (require 'xcscope)
+  #+END_SRC
