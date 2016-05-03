@@ -1,0 +1,16 @@
+#+TITLE: emacs eide package setting
+#+AUTHOR: stupid_coder@163.com
+
+
+* eide
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'eide)
+  ;;(package-initialize)
+  (eide-start)
+  #+END_SRC
+
+* cscope
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'xcscope)
+  (require 'xcscope)
+  #+END_SRC
