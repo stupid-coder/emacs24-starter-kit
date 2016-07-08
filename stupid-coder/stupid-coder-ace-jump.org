@@ -9,12 +9,14 @@
 * setting
   #+BEGIN_SRC emacs-lisp
   ;; 绑定快捷键
-  (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+  (define-key global-map (kbd "C-c f") 'ace-jump-mode)
   ;; 跳回
   (eval-after-load "ace-jump-mode"
   '(ace-jump-mode-enable-mark-sync))
-  (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
-  #+END_SRC
+  (define-key global-map (kbd "C-c b") 'ace-jump-mode-pop-mark)
+  ;; 行
+  (define-key global-map (kbd "C-c g") 'ace-jump-line-mode)
+  #+END_SRC  
   
 * links
   [[https://github.com/winterTTr/ace-jump-mode]]

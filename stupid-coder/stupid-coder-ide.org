@@ -5,7 +5,7 @@
 * eide
   #+BEGIN_SRC emacs-lisp
   (starter-kit-install-if-needed 'eide)
-  ;;(package-initialize)
+  (package-initialize)
   (eide-start)
   #+END_SRC
 
@@ -13,4 +13,9 @@
   #+BEGIN_SRC emacs-lisp
   (starter-kit-install-if-needed 'xcscope)
   (require 'xcscope)
+  #+END_SRC
+  
+* sr-speedbar
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'sr-speedbar)
   #+END_SRC

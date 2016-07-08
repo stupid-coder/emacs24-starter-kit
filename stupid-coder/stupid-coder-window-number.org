@@ -1,0 +1,14 @@
+#+TITLE: stupid-coder-window-number
+
+
+* install
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'window-numbering)  
+  #+END_SRC
+* start
+  #+BEGIN_SRC emacs-lisp
+  (require 'window-numbering)
+  (window-numbering-mode t)
+  #+END_SRC
+
+  

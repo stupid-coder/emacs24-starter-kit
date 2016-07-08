@@ -1,0 +1,16 @@
+#+TITLE: stupid-coder-dash-at-point
+
+* install
+  #+BEGIN_SRC emacs-lisp
+  (starter-kit-install-if-needed 'dash-at-point)
+  #+END_SRC
+* Setting
+  #+BEGIN_SRC emacs-lisp
+  (autoload 'dash-at-point "dash-at-point" "search the word at point with dash." t nil)
+  (global-set-key "\C-cd" 'dash-at-point)
+  (global-set-key "\C-ce" 'dash-at-point-with-docset)
+
+  (add-to-list 'dash-at-point-mode-alist '(perl-mode . "perl"))
+  (add-to-list 'dash-at-point-mode-alist '(c-mode . "c"))
+  (add-to-list 'dash-at-point-mode-alist '(c++-mode . "c++"))
+  #+END_SRC

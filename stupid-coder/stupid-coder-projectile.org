@@ -1,0 +1,14 @@
+#+TITLE: stupid-coder-setting for projectile
+
+
+* install
+  #+BEGIN_SRC emacs-lisp
+  ;(starter-kit-install-if-needed 'projectile)
+  #+END_SRC
+* setting
+  #+BEGIN_SRC emacs-lisp
+  ;(projectile-global-mode)
+  #+END_SRC
+* git
+  [[https://github.com/bbatsov/projectile][projectile]]
+  

@@ -1,0 +1,7 @@
+#+TITLE: stupid-coder-ido
+
+* Setting
+  #+BEGIN_SRC emacs-lisp
+  (require 'ido)
+  (ido-mode t)  
+  #+END_SRC

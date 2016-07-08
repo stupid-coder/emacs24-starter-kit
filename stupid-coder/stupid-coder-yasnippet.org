@@ -5,3 +5,7 @@
   (starter-kit-load "yasnippet")
   #+END_SRC
   
+* setting
+  #+BEGIN_SRC emacs-lisp
+  (yas-global-mode 1)
+  #+END_SRC
